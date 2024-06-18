@@ -1,0 +1,169 @@
+<html>
+<head>
+<title>Apartados</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+<style>
+.imagen {
+display: flex;
+justify-content: space-between;
+}
+.imagenes {
+display: flex;
+justify-content: space-around;
+}
+.imagenes1 {
+display: flex;
+justify-content: space-around;
+}
+
+.bordes {
+border-style: solid;
+border-color:black;
+}
+
+.apartado {
+background-color: gray;
+margin: 20px 650px 20px 650px;
+border-color: black;
+border-style:solid;
+         }
+
+.flota {
+    width: 700px;
+    margin: auto;
+    text-align:center;
+}
+
+.video {
+
+    float: left;
+}
+
+#cuestionario {
+    background-color:peachpuff;
+    width: 700px;
+    margin: auto;
+    text-align:left;
+    
+}
+.submit-button {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007BFF;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+</style>
+</head>
+<body>
+<body background="portada.png">
+<div class="bordes"style="background-color: gray;">
+<div class="imagen">
+<img src="logo2.png" width="150" height="150">
+<p align="center"><font color="white" size="10" face="Playfair">Actividad</font><br><font color="white" size="5" face="Lora">Realiza el siguiente cuestionario base al video</p></font>
+<img src="logo1.png" width="150" height="150">
+
+</div>
+<marquee bgcolor="lightgreen" direction=left><font color="black" size="5" face="Lora">¡Actividad! </marquee></font>
+</div>
+<center>
+<h2><font color="black" face="Lora"> A continuacion observa el video y responde las preguntas</h2></font>
+</center>
+<br><br><br>
+<div class="video">
+
+    <embed src="video.mp4" autoplay="true"></embed>
+    </div>
+<br>
+
+<div class="flota">
+<table border="2" bgcolor="white" bordercolor="black">
+<tr>
+<td rowspan="2" valign="center"><h2><font color="black" size="5" face="Open-Sans">Observa como se debe de<br> calificar el cuestionario</h2></td>
+<td align="center"><h2><font color="black" size="5" face="Open-Sans"> Correcto </td></h2>
+<td align="center"><font color="black" size="4" face="Open-Sans">Selecciona la casilla<br> si es correcta </td>
+</tr>
+<tr>
+<td align="center"><h2><font color="black" size="5" face="Open-Sans">Incorrecto</td></h2>
+<td align="center"><font color="black" size="4" face="Open-Sans">No selecciones la casilla<br> si es incorrecta </td>
+</tr>
+</font>
+</table>
+</div>
+<br><br><br>
+<hr color="black">
+<div id="cuestionario">
+<h1>Cuestionario de Comunicación Asertiva</h1>
+    <form>
+
+        <p><strong>1. ¿Qué es la comunicación asertiva?</strong></p>
+        <input type="checkbox" id="p1r1" name="p1" value="incorrecto1">
+        <label for="p1r1">Es la habilidad de imponer nuestras ideas sobre los demás.</label><br>
+        <input type="checkbox" id="p1r2" name="p1" value="incorrecto2">
+        <label for="p1r2">Es la capacidad de evitar todo tipo de conflictos.</label><br>
+        <input type="checkbox" id="p1r3" name="p1" value="correcto">
+        <label for="p1r3">Es la capacidad de expresar sentimientos, ideas y opiniones de manera correcta.</label><br>
+        <input type="checkbox" id="p1r4" name="p1" value="incorrecto3">
+        <label for="p1r4">Es la habilidad de comunicarse solo con personas conocidas.</label><br>
+        
+        <p><strong>2. ¿Qué es lo contrario de una comunicación asertiva?</strong></p>
+        <input type="checkbox" id="p2r1" name="p2" value="correcto">
+        <label for="p2r1">Aquella que evita expresar lo que siente para evitar un conflicto.</label><br>
+        <input type="checkbox" id="p2r2" name="p2" value="incorrecto1">
+        <label for="p2r2">Aquella que siempre dice lo que piensa sin importar las consecuencias.</label><br>
+        <input type="checkbox" id="p2r3" name="p2" value="incorrecto2">
+        <label for="p2r3">Aquella que se expresa con palabras amables siempre.</label><br>
+        <input type="checkbox" id="p2r4" name="p2" value="incorrecto3">
+        <label for="p2r4">Aquella que usa un lenguaje técnico y complicado.</label><br>
+
+        <p><strong>3. ¿Qué es la comunicación agresiva?</strong></p>
+        <input type="checkbox" id="p3r1" name="p3" value="incorrecto1">
+        <label for="p3r1">Es una forma de comunicación que busca consenso.</label><br>
+        <input type="checkbox" id="p3r2" name="p3" value="correcto">
+        <label for="p3r2">Aquella que se expresa de manera de daño o lastimar a alguna persona.</label><br>
+        <input type="checkbox" id="p3r3" name="p3" value="incorrecto2">
+        <label for="p3r3">Es una forma de comunicación que solo se usa en situaciones formales.</label><br>
+        <input type="checkbox" id="p3r4" name="p3" value="incorrecto3">
+        <label for="p3r4">Es la habilidad de escuchar sin interrumpir.</label><br>
+
+        <p><strong>4. ¿En qué consiste la asertividad?</strong></p>
+        <input type="checkbox" id="p4r1" name="p4" value="incorrecto1">
+        <label for="p4r1">Consiste en siempre ceder a los deseos de los demás.</label><br>
+        <input type="checkbox" id="p4r2" name="p4" value="incorrecto2">
+        <label for="p4r2">Consiste en evitar cualquier tipo de comunicación.</label><br>
+        <input type="checkbox" id="p4r3" name="p4" value="correcto">
+        <label for="p4r3">Consiste en comunicarse a favor de nuestros derechos sin pisotear los derechos de los demás.</label><br>
+        <input type="checkbox" id="p4r4" name="p4" value="incorrecto3">
+        <label for="p4r4">Consiste en imponer nuestras opiniones sobre cualquier otra.</label><br>
+        
+        <br>
+        <a href="actividad2.html" class="submit-button">Enviar</a>
+    </form>
+</div>
+<hr color="black">
+<br>
+<div class="apartado">
+<div>
+<p align="center"><a href="apartados.html"><font color="black" size="6" face="Playfair">Apartados</font></p></a>
+</div>
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
